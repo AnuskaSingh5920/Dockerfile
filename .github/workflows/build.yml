@@ -14,6 +14,6 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build Docker image
-      run: docker build -t Built_container_image:latest .
+      run: docker build -t image:latest .
 
     # You may add more steps like pushing the image to a registry, running tests, etc.
